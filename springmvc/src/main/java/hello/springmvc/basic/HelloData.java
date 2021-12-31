@@ -2,6 +2,8 @@ package hello.springmvc.basic;
 
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 public class HelloData {
 
@@ -9,4 +11,5 @@ public class HelloData {
     private int age;
 
     private String[] arr;
+    private List<String> arrList;
 }
